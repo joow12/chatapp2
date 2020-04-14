@@ -1,2 +1,3 @@
 rootProject.name='chatapp'
 include ':app'
+include ':stdJavaPrograms'
