@@ -30,6 +30,14 @@
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="60dp" />
 
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="등록요청 및 문의"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
 
 
 
