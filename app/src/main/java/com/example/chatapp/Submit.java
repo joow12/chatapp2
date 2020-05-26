@@ -9,9 +9,12 @@ import android.widget.TextView;
 
 public class Submit extends AppCompatActivity {
 
+
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_submit);
+
 
         TextView email = (TextView) findViewById(R.id.btnemail);
         email.setOnClickListener(new TextView.OnClickListener() {

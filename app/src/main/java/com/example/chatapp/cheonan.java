@@ -7,27 +7,34 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class chungcheongnamdo extends AppCompatActivity {
+public class cheonan extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chungcheongnamdo);
+        setContentView(R.layout.activity_cheonan);
 
-        Button button1 = (Button) findViewById(R.id.cheonan);
+
+        Button button1 = (Button) findViewById(R.id.hodugaza);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),cheonan.class);
+                Intent intent = new Intent(getApplicationContext(),hodugaza.class);
                 startActivity(intent);
+
+
+
+
             }
         });
 
-        Button button2 = (Button) findViewById(R.id.seosan);
+
+
+        Button button2 = (Button) findViewById(R.id.sundae);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),seosan.class);
+                Intent intent = new Intent(getApplicationContext(),sundae.class);
                 startActivity(intent);
 
 
@@ -35,5 +42,6 @@ public class chungcheongnamdo extends AppCompatActivity {
 
             }
         });
+
     }
 }

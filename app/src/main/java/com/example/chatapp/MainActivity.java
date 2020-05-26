@@ -29,7 +29,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),Submit.class);
                 startActivity(intent);
+
+
+
+
             }
         });
     }
 }
+
+
+
+
+

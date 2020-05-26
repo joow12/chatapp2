@@ -4,29 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chungcheongnamdo">
+    tools:context=".cheonan">
 
-    <TextView
-        android:id="@+id/abcd"
+    <Button
+        android:id="@+id/hodugaza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="지역목록"
+        android:text="호두과자"
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="60dp" />
 
     <Button
-        android:id="@+id/cheonan"
+        android:id="@+id/sundae"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="천안시"
-        tools:layout_editor_absoluteX="256dp"
-        tools:layout_editor_absoluteY="60dp" />
-
-    <Button
-        android:id="@+id/seosan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="서산시"
+        android:text="병천 순대"
         tools:layout_editor_absoluteX="256dp"
         tools:layout_editor_absoluteY="60dp" />
 
