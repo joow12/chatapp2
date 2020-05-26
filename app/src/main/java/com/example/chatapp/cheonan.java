@@ -19,6 +19,7 @@ public class cheonan extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent intent = new Intent(getApplicationContext(),hodugaza.class);
                 startActivity(intent);
 
