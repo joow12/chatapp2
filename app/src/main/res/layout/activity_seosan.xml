@@ -6,4 +6,81 @@
     android:layout_height="match_parent"
     tools:context=".seosan">
 
+    <Button
+        android:id="@+id/seo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="꽃게장"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서산어리굴젓"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="게국지"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="밀국낙지탕"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="서산한우"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="우럭젓국"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생강한과"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="마늘각시"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/seo9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영양굴밥"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+
+
+
+
+
 </TableLayout>
